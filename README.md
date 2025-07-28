@@ -4,6 +4,7 @@ This project implements a 2D Kalman Filter to estimate the position and velocity
 ## Description
 We simulate an object moving in 2D space with constant velocity. The object’s true position is not directly observable. Instead, we receive noisy position measurements (like from GPS or a camera). The Kalman filter combines these measurements with a model of motion to estimate the true state: position and velocity over time.
 
+
 ## Features
 - Constant velocity motion model
 - Gaussian noise in measurements
@@ -36,3 +37,10 @@ The plot shows:
 - Python 3.x
 - NumPy
 - Matplotlib
+
+
+## 2D Kalman Filter Use Cases
+- Signal (EEG fNIRS) noise filtering
+- Object tracking (robotics, computer vision)
+- GPS signal smoothing
+- Any application involving noisy time-series and system modeling
